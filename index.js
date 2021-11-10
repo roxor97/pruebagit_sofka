@@ -9,5 +9,7 @@ var semiperimetro = perimetro/2;
 
 var area = Math.sqrt(semiperimetro*(semiperimetro-lado1)*(semiperimetro-lado2)*(semiperimetro-lado3));
 
-alert("El perimetro del triangulo es " + perimetro + " y el area es " + area);
+//se muestra el resultado
+console.log("El area del triangulo es: " + area);
+>>>>>>> rama2
 
